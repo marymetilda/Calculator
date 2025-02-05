@@ -16,16 +16,21 @@ body {
 .calculator {
   position: relative;
   display: grid;
+  padding: 8px;
+  background: #111;
+  border-radius: 12px;
 }
 
 .calculator .value {
   grid-column: span 4;
-  height: 100px;
+  height: 80px;
   text-align: right;
   border: none;
   outline: none;
   padding: 10px;
   font-size: 18px;
+  border-radius: 12px;
+  margin-bottom: 4px;
 }
 
 .calculator span {
@@ -36,6 +41,8 @@ body {
   place-items: center;
   border: 1px solid rgba(0, 0, 0, 0.1);
   color: #fff;
+  border-radius: 12px;
+  margin: 2px;
 }
 
 .calculator span:active {
